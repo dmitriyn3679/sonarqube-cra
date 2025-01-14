@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from './components/Footer';
+import Counter from './components/Counter';
+import BadPracticeComponent from './components/BadPracticeComponent';
+import CriticalBugComponent from './components/CriticalBugComponent';
+import VulnerabilityComponent from './components/VulnerabilityComponent';
+import DuplicateComponent1 from './components/DuplicateComponent1';
+import DuplicateComponent2 from './components/DuplicateComponent2';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Counter />
+      <BadPracticeComponent />
+      <CriticalBugComponent />
+      <VulnerabilityComponent />
+      <DuplicateComponent1 />
+      <DuplicateComponent2 />
+      <Footer />
+    </>
   );
 }
 
