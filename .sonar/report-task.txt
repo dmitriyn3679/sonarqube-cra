@@ -3,5 +3,5 @@ projectKey=dmitriyn3679_sonarqube-cra
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.58807
 dashboardUrl=https://sonarcloud.io/dashboard?id=dmitriyn3679_sonarqube-cra
-ceTaskId=AZRlVsF9iL1aUyXe82Gd
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZRlVsF9iL1aUyXe82Gd
+ceTaskId=AZRlX74m3xI7mdAw0S2L
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZRlX74m3xI7mdAw0S2L
